@@ -1,0 +1,13 @@
+#usa_debt_containter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+body, html{
+  height: 100%;
+  width: 100%;
+}
