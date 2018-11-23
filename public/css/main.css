@@ -1,4 +1,4 @@
-#usa_debt_containter{
+#usa_debt_container{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,6 +7,19 @@
   margin-right: auto;
   height: 100%;
   perspective: 1500px;
+}
+#level_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+#text_lvl{
+  height: 100px;
+  width: 500px;
 }
 body, html{
   height: 100%;
