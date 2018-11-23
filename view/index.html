@@ -12,16 +12,14 @@
     </head>
 <body>
     <div id = "usa_debt_containter">
-        <div id="odometer" class="odometer">
-            217730682003000
-        </div>
+        <div id="odometer" class="odometer"> </div>
+    </div>
+    <div id = "level_container">
+        
     </div>
 </body>
+<script src="/public/js/game.js"></script>
 <script>
-    var clicks = 217730682003000;
-    $(".odometer").click(()=>{
-        clicks++;
-        odometer.innerHTML = clicks;
-    })
+    var game = new Game(odometer, 217730682003000);
 </script>
 </html>
