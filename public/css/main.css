@@ -8,6 +8,7 @@
   height: 100%;
   perspective: 1500px;
 }
+
 #level_container{
   display: flex;
   align-items: center;
@@ -17,9 +18,15 @@
   margin-right: auto;
   height: 100px;
 }
-#text_lvl{
-  height: 100px;
+#text_container{
+  font-family: "Helvetica Neue", sans-serif;
+
   width: 500px;
+  margin-left: 1.8%;
+}
+#text_lvl{
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: normal;
 }
 body, html{
   height: 100%;
