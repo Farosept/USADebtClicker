@@ -24,6 +24,7 @@
 }
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
   text-align: left;
+  user-select: none;
   display: block;
   position: absolute;
   top: 0;
@@ -82,8 +83,9 @@
 
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   font-family: "Helvetica Neue", sans-serif;
-  line-height: 2.1em;
-  font-size: 40px;
+  font-size: 7vw;
+  height: 220px;
+  user-select: none;
   transform: rotateX(30deg);
   color: rgb(216, 55, 61);
 }

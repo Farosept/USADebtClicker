@@ -1,34 +1,67 @@
-#usa_debt_container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-  perspective: 1500px;
+* {
+	margin: 0;
 }
 
-#level_container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100px;
+body {
+	background: url(/public/pictures/USA-Debt.png) no-repeat center center fixed;
+	background-size: 100% 100%;
 }
-#text_container{
-  font-family: "Helvetica Neue", sans-serif;
 
-  width: 500px;
-  margin-left: 1.8%;
+.usa_debt_container {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	perspective: 1500px;
 }
-#text_lvl{
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: normal;
+
+.usa_debt_block__title {
+	color: #4e5252;
 }
-body, html{
-  height: 100%;
-  width: 100%;
+
+#odometer {
+	width: 90%;
+	bottom: 210px;
+}
+
+.usa_debt_block__img {
+	display: block;
+	position: relative;
+	margin: 15px auto 25px;
+	width: 100%;
+}
+
+.usa_debt_block {
+	width: 77%;
+	height: 271px;
+}
+
+#level_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+
+#text_container {
+	font-family: "Helvetica Neue", sans-serif;
+	width: 500px;
+	margin-left: 1.8%;
+}
+
+#text_lvl {
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: normal;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
 }
