@@ -3,8 +3,8 @@
 }
 
 body {
-	background: url(/public/pictures/USA-Debt.png) no-repeat center center fixed;
-	background-size: 100% 100%;
+	background: url(../pictures/USA-Debt.png) no-repeat center center fixed;
+	background-size: cover;
 }
 
 .usa_debt_container {
@@ -12,9 +12,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
 	height: 100%;
 	perspective: 1500px;
 }
@@ -25,7 +22,6 @@ body {
 
 #odometer {
 	width: 90%;
-	bottom: 210px;
 }
 
 .usa_debt_block__img {
@@ -36,8 +32,13 @@ body {
 }
 
 .usa_debt_block {
+	transform: rotateX(30deg);
+	box-shadow: 0 0 2.2em 0.2em #6a393d;
 	width: 77%;
-	height: 271px;
+	border: 3px solid #6a393d;
+	border-radius: 24px;
+	background-color: #d6d7da;
+	display: inline-block;
 }
 
 #level_container {
@@ -64,4 +65,38 @@ body {
 body, html {
 	height: 100%;
 	width: 100%;
+}
+
+/* .usa_debt_block-header{
+	position: relative;
+	bottom: 82px;
+	left: 132px;
+	background: #d5d8da;
+	border-radius: 24px;usa_debt_blockusa_debt_block
+	width: 73%;
+} */
+
+.usa_debt_container-banner {
+	width: 100%;
+	display: block;
+	justify-content: center;
+}
+
+.usa_debt_container-banner__header {
+	transform: rotateX(30deg);
+	display: inline-block;
+	background-color: #d5d8da;
+	border: 3px solid #9e9498;
+	border-radius: 11px;
+	width: 55%;
+	position: relative;
+	top: 2.5vw;
+	z-index: 1;
+}
+
+.usa_debt_container-banner__header-text{
+	font-size: 4vw;
+	color: #4e5252;
+	font-weight: bold;
+	font-family: Tahoma;
 }

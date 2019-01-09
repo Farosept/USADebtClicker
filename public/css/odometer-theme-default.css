@@ -84,7 +84,6 @@
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 7vw;
-  height: 220px;
   user-select: none;
   transform: rotateX(30deg);
   color: rgb(216, 55, 61);
